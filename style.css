@@ -1,0 +1,40 @@
+/* Завдання 2 */
+  .lesson-container {
+    margin-top: 20px;
+  }
+
+  .lesson-container ul li:first-child:nth-last-child(5),
+  .lesson-container ul li:last-child:nth-last-child(5),
+  .lesson-container ul li:nth-child(2):nth-last-child(4),
+  .lesson-container ul li:nth-child(4):nth-last-child(3),
+  .lesson-container ul li:nth-child(3):nth-last-child(3) {
+    background-color: lightblue;
+  }
+
+  .lesson-container ul li:nth-child(odd) {
+    font-style: italic;
+  }
+
+  .lesson-container ul li:nth-child(even) {
+    font-weight: bold;
+  }
+
+  .lesson-container ul li:hover {
+    transform: scale(1.1);
+  }
+
+  .lesson-container ul li:nth-child(3n+1):not(:last-child) {
+    color: orange;
+  }
+
+  .lesson-container ul li:nth-child(3n+2):not(:last-child) {
+    color: purple;
+  }
+
+  .lesson-container ul li:nth-child(3n):not(:last-child) {
+    color: green;
+  }
+
+  .lesson-container ul li:last-child {
+    text-decoration: underline;
+  }
